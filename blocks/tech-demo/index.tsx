@@ -1,15 +1,17 @@
 import { FileBlockProps } from "@githubnext/blocks";
-import { Button, Box } from "@primer/react";
-import { useState } from "react";
+import { Box } from "@primer/react";
+import ReactSkinview3d from "react-skinview3d";
 import "./index.css";
 
-export default function (props: FileBlockProps) {
-  const [count, setCount] = useState(0)
+export default function (_props: FileBlockProps) {
   return (
     <Box p={4}>
-      <div>Hello world</div>
-      <h2>{count}</h2>
-      <Button onClick={() => setCount(count + 1)}>add count</Button>
+      <h2>ReactSkinview3d</h2>
+      <ReactSkinview3d
+        skinUrl="https://minotar.net/skin/Hacksore"
+        height="500"
+        width="500"
+      />
     </Box>
   );
 }
