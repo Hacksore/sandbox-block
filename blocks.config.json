@@ -1,10 +1,10 @@
 [
   {
     "type": "file",
-    "id": "file-block",
-    "title": "Example File Block",
-    "description": "A basic file block",
-    "entry": "blocks/example-file-block/index.tsx",
+    "id": "sandbox-block",
+    "title": "Hacksore's Tech Demo",
+    "description": "A tech demo for Blocks",
+    "entry": "blocks/tech-demo/index.tsx",
     "matches": ["*"],
     "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
   }
