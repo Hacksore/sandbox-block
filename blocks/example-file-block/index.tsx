@@ -9,7 +9,7 @@ export default function (props: FileBlockProps) {
     <Box p={4}>
       <div>Hello world</div>
       <h2>{count}</h2>
-      <button onClick={() => setCount(count + 1)}>add count</button>
+      <Button onClick={() => setCount(count + 1)}>add count</Button>
     </Box>
   );
 }
