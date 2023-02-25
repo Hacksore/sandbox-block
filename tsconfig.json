@@ -1,4 +1,7 @@
 {
   "extends": "./node_modules/@githubnext/blocks/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node"
+  },
   "include": ["./blocks"]
 }

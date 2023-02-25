@@ -1,8 +1,8 @@
 name: Create Release
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - "**"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,7 +23,7 @@ jobs:
         run: yarn build
 
       - name: Create block tarballs
-        run: node ./release.ts
+        run: node ./release.js
 
       - name: Release
         uses: softprops/action-gh-release@v1
