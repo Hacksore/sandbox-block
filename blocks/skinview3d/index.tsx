@@ -10,7 +10,7 @@ export default function (props: FileBlockProps) {
   return (
     <Box p={4}>
       <ReactSkinview3d
-        skinUrl="https://minotar.net/skin/Hacksore"
+        skinUrl="https://raw.githubusercontent.com/Hacksore/skinview3d-block/main/img/1_8_texturemap_redux.png"
         height="500"
         width="500"
       />
