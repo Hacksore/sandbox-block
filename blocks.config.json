@@ -1,11 +1,11 @@
 [
   {
     "type": "file",
-    "id": "sandbox-block",
-    "title": "Hacksore's Tech Demo",
-    "description": "A tech demo for Blocks",
-    "entry": "blocks/tech-demo/index.tsx",
+    "id": "skinview3d-block",
+    "title": "skinview3d",
+    "description": "Render a mincraft skin with Three.js",
+    "entry": "blocks/skinview3d/index.tsx",
     "matches": ["*"],
-    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
+    "example_path": "https://github.com/Hacksore/sandbox-block/blob/main/README.md"
   }
 ]

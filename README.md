@@ -1,12 +1,10 @@
-# Hacksore's Tech Demo
-
 <BlockComponent
   block={{
     type: "file",
-    id: "sandbox-block",
-    title: "Hacksore testing",
-    description: "Coolstuff",
-    entry: "blocks/tech-demo/sandbox/index.tsx",
+    id: "skinview3d-block",
+    title: "skinview3d",
+    description: "Render a mincraft skin with Three.js",
+    entry: "blocks/skinview3d/index.tsx",
     matches: ["*"],
     example_path: "https://github.com/Hacksore/sandbox-block/blob/main/README.md",
     owner: "Hacksore",
